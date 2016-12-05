@@ -342,3 +342,16 @@ java.lang.RuntimeException: Finished restoring information for: C:\Users\ROG VAL
 
 !ENTRY org.python.pydev.shared_core 4 4 2016-12-05 02:25:33.953
 !MESSAGE Info: Rebuilding internal caches: K:\dev\engineering10\LiClipse Workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\SRProject\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-12-05 03:28:12.117
+!MESSAGE An internal error occurred during: "LabelEventJob".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:710)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.fireLabelEvent(GitLightweightDecorator.java:727)
+	at org.eclipse.egit.ui.internal.decorators.LabelEventJob.run(GitLightweightDecorator.java:797)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

@@ -20,8 +20,8 @@ int compData = 46; // Compass Data
 int compClock = 47; // Compass Clock
 
 // Remote controls use Pulse Wave Modulation digital outputs
-int rcLR = 12; // Remote Control L&R port
-int rcFB = 11; // Remote Control F&B port
+int rcLR = 12; // Remote Control L&R port FORWARD
+int rcFB = 11; // Remote Control F&B port FRONT STREERING
 
 int divider = 0;
 
@@ -30,7 +30,7 @@ int check_fL_MIC = 0;
 int check_rR_MIC = 0;
 int check_rL_MIC = 0;
 
-int check_compass = 1;
+int check_compass = 0;
 
 int check_ultrasonicF = 0;
 int check_ultrasonicR = 0;
@@ -41,6 +41,9 @@ void setup() {
   pinMode(rearUSecho,INPUT);
   pinMode(frontUStrigger,OUTPUT);
   pinMode(frontUSecho,INPUT);
+
+  pinMode(rcLR,OUTPUT);
+  pinMode(rcFB,OUTPUT);
 
 //Setting up Compass stuff
   Wire.begin();
@@ -147,4 +150,8 @@ void loop() {
     }
     Serial.println(divider);
   }
+
+  /////////////////MOTOR TEST/////////////////
+  analogWrite(rcLR,50);
+  
 }
