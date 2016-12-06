@@ -1,3 +1,5 @@
+#include <Adafruit_Sensor.h>
+
 //Compass stuff
 #include <Wire.h> //I2C Arduino Library
 #define address 0x1E //0011110b, I2C 7bit address of HMC5883
@@ -30,7 +32,7 @@ int check_fL_MIC = 0;
 int check_rR_MIC = 0;
 int check_rL_MIC = 0;
 
-int check_compass = 0;
+int check_compass = 1;
 
 int check_ultrasonicF = 0;
 int check_ultrasonicR = 0;
