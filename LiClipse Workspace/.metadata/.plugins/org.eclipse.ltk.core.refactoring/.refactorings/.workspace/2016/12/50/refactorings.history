@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;SRProject/getSensorInfo&apos;" deleteContents="false" description="Delete resource &apos;SRProject/getSensorInfo&apos;" element1="/SRProject/getSensorInfo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1480933722809"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;SRProject/getSensorInfo&apos;" deleteContents="false" description="Delete resource &apos;SRProject/getSensorInfo&apos;" element1="/SRProject/getSensorInfo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1480933722809"/>&#x0A;<refactoring comment="Delete resource &apos;SRProject/nanpy&apos;" deleteContents="false" description="Delete resource &apos;SRProject/nanpy&apos;" element1="/SRProject/nanpy" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1481105330540"/>
 </session>

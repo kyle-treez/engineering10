@@ -1,0 +1,11 @@
+
+def checkSensor():
+    sensor=10
+    x=0
+    for i in range(0,10):
+        x=x+sensor
+    average=x/10
+    return average
+    
+sensorAverage = checkSensor()
+print(sensorAverage)

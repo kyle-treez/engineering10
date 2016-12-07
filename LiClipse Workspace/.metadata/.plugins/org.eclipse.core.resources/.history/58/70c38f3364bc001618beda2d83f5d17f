@@ -1,0 +1,11 @@
+''' import from nanpy and time modules '''
+from nanpy import Arduino
+from "nanpy-0.8/nanpy" import serial_manager
+from time import sleep
+
+''' create a connection to the Arduino '''
+serial_manager.connect('/dev/ttyACM0')
+
+a = Arduino()
+
+a.pinMode(1, a.OUTPUT)

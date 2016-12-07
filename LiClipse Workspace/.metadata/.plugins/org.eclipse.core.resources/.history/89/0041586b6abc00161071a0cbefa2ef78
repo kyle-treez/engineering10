@@ -1,0 +1,9 @@
+x=1
+for i in range(0, 10):
+    print("i=",i)
+    x=x+i
+    
+print("sum=",x)
+print("average=",x,"/10")
+ave=x/10
+print(ave)
