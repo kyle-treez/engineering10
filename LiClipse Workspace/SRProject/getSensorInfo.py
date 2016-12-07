@@ -6,3 +6,6 @@ from time import sleep
 ''' create a connection to the Arduino '''
 serial_manager.connect('/dev/ttyACM0')
 
+a = Arduino()
+
+a.pinMode(1, a.OUTPUT)

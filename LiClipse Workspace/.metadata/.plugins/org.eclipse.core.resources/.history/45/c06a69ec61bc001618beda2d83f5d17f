@@ -1,0 +1,2 @@
+from SRProject import test
+test.printing(shit="FUCKING SHIT")
