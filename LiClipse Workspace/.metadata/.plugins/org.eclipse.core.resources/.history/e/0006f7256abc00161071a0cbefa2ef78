@@ -1,7 +1,0 @@
-x=0
-for i in range(0, 11):
-    print("i=",i)
-    x=x+i
-    
-ave=x/10
-print(ave)

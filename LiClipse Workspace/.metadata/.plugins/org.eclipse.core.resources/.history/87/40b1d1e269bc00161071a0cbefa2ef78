@@ -1,4 +1,0 @@
-for i in range(0, 10):
-    x=x+i
-    
-ave=x/10
