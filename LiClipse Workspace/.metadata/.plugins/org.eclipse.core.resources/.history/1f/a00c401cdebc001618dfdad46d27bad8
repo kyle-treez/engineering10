@@ -77,7 +77,7 @@ def rear_rightMic():
     average=x/pollSample1
     return average
 
-def rear_leftMic():
+def rear_leftMic(): #THIS MIC IS BUSTED, DO NOT USE
     x=0
     for i in range(0,pollSample1):
         sensor = a.analogRead(rL_MIC)
