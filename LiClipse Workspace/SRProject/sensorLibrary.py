@@ -24,13 +24,34 @@ compData = 20; # Compass Data
 compClock = 21 # Compass Clock
 
 #Remote controls use Pulse Wave Modulation digital outputs
-rcLR = 12 #Remote Control L&R port FORWARD
-rcFB = 11 #Remote Control F&B port FRONT STREERING
+rcLR = 6 #Remote Control L&R port FRONT STREERING
+rcFB = 7 #Remote Control F&B port Forwards/Backwards
 
 a = Arduino()
 pollSample1 = 10
 pollSample2 = 3
 pollSample3 = 1
+
+def move_FR():
+    a.analogWrite(rcLR,200)
+    a.analogWrite(rcFB,0)
+    
+def move_FL():
+    a.analogWrite(rcLR,0)
+    a.analogWrite(rcFB,0)
+    
+def move_FS():
+    a.analogWrite(rcLR,130)
+    a.analogWrite(rcFB,0)
+    
+def move_R():
+    a.analogWrite(rcLR,130)
+    a.analogWrite(rcFB,70)
+    
+def move_IDLE():
+    a.analogWrite(rcLR,130)
+    a.analogWrite(rcFB,30)
+
 
 def front_rightMic():
     x=0
@@ -56,7 +77,7 @@ def rear_rightMic():
     average=x/pollSample1
     return average
 
-def rear_leftMic():
+def rear_leftMic(): #THIS MIC IS BUSTED, DO NOT USE
     x=0
     for i in range(0,pollSample1):
         sensor = a.analogRead(rL_MIC)

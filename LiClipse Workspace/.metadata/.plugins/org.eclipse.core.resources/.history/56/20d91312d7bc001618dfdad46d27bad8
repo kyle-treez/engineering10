@@ -1,0 +1,20 @@
+#!/usr/bin/python
+from nanpy import Arduino
+from nanpy import serial_manager
+from time import sleep
+import smbus
+import time
+import math
+import sensorLibrary
+a = Arduino()
+sl = sensorLibrary
+
+def noiseSource():
+    frMIC = sl.front_rightMic()
+    flMIC = sl.front_leftMic()
+    rrMIC = sl.rear_rightMic()
+    if (((frMIC+flMIC)/2) > rrMIC):
+        #noise from front
+        if (frMIC > flMIC):
+            frontRight = "true"
+    

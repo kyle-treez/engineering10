@@ -7,7 +7,9 @@ dallastemperature|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\na
 eeprom|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\eeprom.py
 getSensorInfo|K:\dev\engineering10\LiClipse Workspace\SRProject\getSensorInfo.py
 lcd|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\lcd.py
+logicTest|K:\dev\engineering10\LiClipse Workspace\SRProject\logicTest.py
 logicTests.mathTest|K:\dev\engineering10\LiClipse Workspace\SRProject\logicTests\mathTest.py
+masterScript|K:\dev\engineering10\LiClipse Workspace\SRProject\masterScript.py
 onewire|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\onewire.py
 sensorLibrary|K:\dev\engineering10\LiClipse Workspace\SRProject\sensorLibrary.py
 serialmanager|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\serialmanager.py
