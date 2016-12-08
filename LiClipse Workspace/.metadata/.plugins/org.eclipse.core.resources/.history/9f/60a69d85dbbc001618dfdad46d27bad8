@@ -39,23 +39,23 @@ def moveTheDamnCar():
     if (nSource == "frontRight"):
         sl.move_IDLE()
         sl.move_FR()
-        sleep(1)
-        sl.move_FS()
         sleep(2)
+        sl.move_FS()
+        sleep(3)
         sl.move_IDLE()
         
     if (nSource == "frontLeft"):
         sl.move_IDLE()
         sl.move_FL()
-        sleep(1)
-        sl.move_FS()
         sleep(2)
+        sl.move_FS()
+        sleep(3)
         sl.move_IDLE()
         
     if (nSource == "rear"):
         sl.move_IDLE()
         sl.move_R()
-        sleep(2)
+        sleep(3)
         sl.move_IDLE()
 
 def userTelometry():
