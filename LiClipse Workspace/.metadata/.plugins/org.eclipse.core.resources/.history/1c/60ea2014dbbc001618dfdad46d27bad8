@@ -59,7 +59,7 @@ def moveTheDamnCar():
         sl.move_IDLE()
 
 def userTelometry():
-    print("Heading = ",sl.getCompassData())
+    print("Heading = ".getCompassData())
     nSource = noiseSource()
     if (nSource == "frontRight"):
         print("Moving forward Right")
