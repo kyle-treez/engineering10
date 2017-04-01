@@ -1,19 +1,6 @@
 MODULES_MANAGER_V2
-__init__|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\__init__.py
-arduino|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\arduino.py
-arduinoboard|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\arduinoboard.py
-capacitivesensor|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\capacitivesensor.py
-dallastemperature|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\dallastemperature.py
-eeprom|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\eeprom.py
-getSensorInfo|K:\dev\engineering10\LiClipse Workspace\SRProject\getSensorInfo.py
-lcd|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\lcd.py
-logicTest|K:\dev\engineering10\LiClipse Workspace\SRProject\logicTest.py
-logicTests.mathTest|K:\dev\engineering10\LiClipse Workspace\SRProject\logicTests\mathTest.py
-masterScript|K:\dev\engineering10\LiClipse Workspace\SRProject\masterScript.py
-onewire|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\onewire.py
-sensorLibrary|K:\dev\engineering10\LiClipse Workspace\SRProject\sensorLibrary.py
-serialmanager|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\serialmanager.py
-servo|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\servo.py
-stepper|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\stepper.py
-tone|K:\dev\engineering10\LiClipse Workspace\SRProject\nanpy-0.8\nanpy\tone.py
-variables|K:\dev\engineering10\LiClipse Workspace\SRProject\variables.py
+getSensorInfo|C:\Users\Levantine\dev\engineering10\LiClipse Workspace\SRProject\getSensorInfo.py
+logicTest|C:\Users\Levantine\dev\engineering10\LiClipse Workspace\SRProject\logicTest.py
+masterScript|C:\Users\Levantine\dev\engineering10\LiClipse Workspace\SRProject\masterScript.py
+sensorLibrary|C:\Users\Levantine\dev\engineering10\LiClipse Workspace\SRProject\sensorLibrary.py
+variables|C:\Users\Levantine\dev\engineering10\LiClipse Workspace\SRProject\variables.py

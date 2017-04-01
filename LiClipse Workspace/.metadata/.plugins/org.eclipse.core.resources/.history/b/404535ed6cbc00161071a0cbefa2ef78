@@ -1,6 +1,0 @@
-sensor=5
-for i in range(0,10):
-    x=sensor
-    x=x+sensor
-    
-print(x)

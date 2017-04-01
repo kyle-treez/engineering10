@@ -1,8 +1,0 @@
-from nanpy import Arduino
-from nanpy import serial_manager
-from time import sleep
-a = Arduino()
-
-#// Ultrasonic sensors use digital ports and needs a trigger to get an echo
-a.int rearUStrigger = 24; #// rear Ultrasonic prox sensor trigger
-a.int rearUSecho = 22; #// rear Ultrasonic prox sensor echo

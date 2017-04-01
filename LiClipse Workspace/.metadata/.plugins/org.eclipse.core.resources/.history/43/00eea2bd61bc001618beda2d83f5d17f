@@ -1,3 +1,0 @@
-def printing(shit):
-    print ("Value to print:",shit)
-    return;
