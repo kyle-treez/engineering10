@@ -27,7 +27,7 @@ int rcFB = 11; // Remote Control F&B port FRONT STREERING
 
 int divider = 0;
 
-int check_fR_MIC = 0;
+int check_fR_MIC = 1;
 int check_fL_MIC = 0;
 int check_rR_MIC = 0;
 int check_rL_MIC = 0;
